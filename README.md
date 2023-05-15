@@ -4,7 +4,7 @@
 iOS15 부터 지원하는 비동기 메써드인 URLSession.shared.data 을 사용해서 네트워크를 구현했습니다.
 
 ## 💻 Code
-```
+```swift
 static let baseUrl = "https://api.github.com"
 
 static func getUser(username: String) async throws -> GitHubUser {
