@@ -15,4 +15,5 @@ static func getUser(username: String) async throws -> GitHubUser {
 ```
 
 ## 📚 참고
-[공식문서](https://developer.apple.com/documentation/foundation/urlsession/3767352-data)
+- [Apple URLSession 문서](https://developer.apple.com/documentation/foundation/urlsession/3767352-data)
+- [Githib API 문서](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28)
