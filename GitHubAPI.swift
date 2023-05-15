@@ -87,7 +87,6 @@ Task {
     //    GitHubUser(login: "insub4067", url: "https://api.github.com/users/insub4067", name: "insub", followers: 105, following: 128)
 }
 
-
 // MARK: - Recieved JSON Data
 //[
 //    "company": Social Investing Lab,
