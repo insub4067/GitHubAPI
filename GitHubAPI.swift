@@ -78,13 +78,14 @@ struct GitHubUser: Codable {
     let name: String
     let followers: Int
     let following: Int
+    let avatarUrl: String
 }
 
 Task {
     let user = try await GithubAPI.getUser(username: "insub4067")
     print(user)
     //    출력 👇👇
-    //    GitHubUser(login: "insub4067", url: "https://api.github.com/users/insub4067", name: "insub", followers: 105, following: 128)
+    //    GitHubUser(login: "insub4067", url: "https://api.github.com/users/insub4067", name: "insub", followers: 105, following: 128, avatarUrl: "https://avatars.githubusercontent.com/u/85481204?v=4")
 }
 
 // MARK: - Recieved JSON Data
